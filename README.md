@@ -1,1 +1,2 @@
-# Gantt-Chart-Editor-tool
+A Gantt chart, commonly used in project management, is one of the most popular and useful ways of showing activities (tasks or events) displayed against time. On the left of the chart is a list of the activities and along the top is a suitable time scale. Each activity is represented by a bar; the position and length of the bar reflects the start date, duration and end date of the activity.This gantt chart software is developed as a SaaS application which will enable the user to create project timeline reports which will help in project planning.
+
