@@ -1,0 +1,22 @@
+#dataDiv{
+	height:300px;
+}
+
+.row{
+	margin-right:8px;
+	margin-left:5px;
+	margin-top:25px;
+}
+
+input[type=text] {
+	border:none;
+    background-color: #3CBC8D;
+}
+
+.intro{
+	background-color:orange;
+}
+
+#chart_div{
+	overflow: auto;
+}

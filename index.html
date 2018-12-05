@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  </script>
+  
+  </head>
+<body>
+
+<div class="container">    
+  <div class="jumbotron intro">
+    <h1>Gantt Chart</h1>      
+    <p>A chart in which a series of horizontal lines shows the amount of work done or production completed in certain periods of time in relation to the amount planned for those periods.</p>
+  </div>
+  
+  <div class="row">
+  <div class="table-responsive" id="dataDiv">          
+  <table class="table" id="dataTable">
+      <tr>
+			<th>Task ID</th>
+			<th>Task Name</th>
+			<th>Start</th>
+			<th>Duration</th>
+			<th>Percentage Completed</th>
+			<th>Dependencies</th>
+			<th>Resources</th>
+      </tr>
+	  
+	  <tr>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+		  <td><input type="text"/></td>
+	  </tr>
+	  
+  </table>
+  </div>
+  </div>
+  
+  <div class="row">
+  <button type="button" class="btn btn-primary" id="add">
+  <span class="glyphicon glyphicon-plus"></span> Add </button>
+  
+  <button type="button" class="btn btn-success" id="update">
+  <span class="glyphicon glyphicon-refresh"></span>Refresh</button>
+  </div>
+  
+  <div class="row">
+  <p>Give file with .xls extension</p> 
+  <input type="file" id="my_file_input" />
+  </div>
+  
+  <script src="addData.js"></script>
+  
+  <div class="row">
+  <div id="chart_div"></div>
+  </div>
+  
+</div>
+
+</body>
+</html>
